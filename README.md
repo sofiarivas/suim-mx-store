@@ -1,5 +1,5 @@
 # suim-mx-store
-![](../suim-mx-store/static/suim-badge.png)
+![](./static/suim-badge.png)
 
 > An ecommerce specialized on swimming gear
 
