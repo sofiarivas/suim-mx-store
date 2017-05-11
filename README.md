@@ -1,8 +1,6 @@
 # suim-mx-store
+![](../suim-mx-store/static/suim-badge.png)
 
-![](/Users/srivas/Documents/repos_sofi/suimmx/suim-mx-store/static/suim-badge.png)
-
-###süim.mx
 > An ecommerce specialized on swimming gear
 
 ## Build Setup
