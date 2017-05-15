@@ -38,4 +38,18 @@ export default {
     display: block;
     margin: 35px auto;
   }
+
+
+@media only screen and (min-width: 750px) {
+  .display-wrapper {
+    width: 85%;
+  }
+
+  .brand-logo {
+    display: inline-block;
+    margin: auto 18px;
+    width: 130px;
+  }
+
+}
 </style>

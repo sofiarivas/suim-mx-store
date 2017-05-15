@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <suim-header></suim-header>
-    <mailing-form></mailing-form>
+    <mailing-form class="mailing-container"></mailing-form>
     <brands-display></brands-display>
     <social-media-footer></social-media-footer>
   </div>

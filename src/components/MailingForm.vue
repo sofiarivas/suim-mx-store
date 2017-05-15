@@ -53,4 +53,10 @@ export default {
     display: flex;
     flex-direction: column;
   }
+
+  @media only screen and (min-width: 750px) {
+  .form-wrapper {
+    width: 50%;
+  }
+}
 </style>
