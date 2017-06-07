@@ -40,6 +40,7 @@ export default {
   .water-icon-left {
     position: absolute;
     top: 63px;
+    left: 0;
   }
 
 </style>
