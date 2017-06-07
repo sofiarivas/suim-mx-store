@@ -29,21 +29,28 @@ export default {
 <style scoped>
 
   .form-wrapper {
-    margin: auto;
+    margin: 40px auto;
     width: 75%;
   }
 
   .form-copy{
-    margin-top: 45px;
+    margin-bottom: 20px;
     font-size: 19px;
     color: #4BCBFF;
     line-height: 22px;
+    font-weight: bold;
+    display: inline-block;
   }
 
   .form-cta-input {
     border: 1px solid lightgray;
     border-radius: 100px;
     padding: 10px 20px;
+    width: 60%;
+  }
+
+  .form-cta-input:focus {
+    outline: none;
   }
 
   .form-cta-button {
@@ -54,6 +61,10 @@ export default {
     color: white;
     padding: 10px 20px;
     margin: 14px 40px;
+  }
+
+  .form-cta-button:focus {
+    outline: none;
   }
 
   .input-wrapper {
