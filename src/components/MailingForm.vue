@@ -1,11 +1,18 @@
 <template>
-  <div class="form-wrapper">
-    <h2 class="form-copy">{{formCopy}}</h2>
-    <div class="input-wrapper">
-      <input type="text" placeholder="tuprecioso@mail.com" class="form-cta-input">
-      <button class="form-cta-button"> Suscribírme</button>
-    </div>
+<!-- Begin MailChimp Signup Form -->
+  <div id="mc_embed_signup" class="form-wrapper">
+    <form action="//suim.us16.list-manage.com/subscribe/post?u=feb7202a6e49ca6638041909e&amp;id=94c58bf496" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <label for="mce-EMAIL" class="form-copy">Suscríbete y no te pierdas nuestras mejores ofertas:</label>
+          <input type="email" value="" name="EMAIL" class="form-cta-input" id="mce-EMAIL" placeholder="tuemail@ejemplo.com" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_feb7202a6e49ca6638041909e_94c58bf496" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Suscribírme" name="subscribe" id="mc-embedded-subscribe" class="form-cta-button"></div>
+        </div>
+    </form>
   </div>
+<!--End mc_embed_signup-->
+
 </template>
 
 <script>
